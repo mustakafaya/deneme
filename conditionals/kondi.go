@@ -11,12 +11,16 @@ func Kondif() {
 
 		fmt.Println("para yoh")
 
-	}
-
-	if bakiye >= cek {
+	} else if bakiye == cek {
 
 		bakiye = bakiye - cek
 
-		fmt.Println("paranız hazırlanıyor kalan bakiye : ", bakiye)
+		fmt.Println("Paranız hazırlanıyor kalan bakiyeniz:", bakiye, "₺")
+		// fmt.Println("paranız hazırlanıyor kalan bakiye : " + fmt.Sprintf("%v", bakiye))
+	} else {
+
+		bakiye = bakiye - cek
+		fmt.Println("paranız hazırlanıyor kalan bakiye : " + fmt.Sprintf("%v", bakiye))
+
 	}
 }
