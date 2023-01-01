@@ -2,11 +2,12 @@ package main
 
 import (
 	// "moduleadi/variables"
-	"moduleadi/conditionals"
+	"moduleadi/loops"
 )
-func main()  {
+
+func main() {
 
 	// variablesp.Variablesf()
-	kondip.Kondif()
+	loops.Dongu()
 
 }
