@@ -6,6 +6,7 @@ func Dongu() {
 
 	count := 77
 	tahmin := 0
+	kere := 1
 	fmt.Println("1 ile 100 arasındaki tahmininizi giriniz")
 	fmt.Scanln(&tahmin)
 
@@ -19,8 +20,17 @@ func Dongu() {
 
 		fmt.Scanln(&tahmin)
 
+		kere = kere + 1
+
 	}
 	if tahmin == count {
-		fmt.Println("tebrikelr bildiniz")
+		fmt.Print("tebrikler ", kere, " tahminde bildiniz")
+		if kere < 4 {
+
+			fmt.Println(": Süper")
+
+		} else {
+			fmt.Println(": Fena değil")
+		}
 	}
 }

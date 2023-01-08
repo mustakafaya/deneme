@@ -1,13 +1,12 @@
 package main
 
 import (
-	// "moduleadi/variables"
-	"moduleadi/loops"
+	"moduleadi/slices"
 )
 
 func main() {
 
-	// variablesp.Variablesf()
-	loops.Dongu()
+	// package adi .fonskiyon adi ()
+	slices.Pizza()
 
 }
